@@ -1,0 +1,48 @@
+baseurl = "https://gpunksite.com/"
+languageCode = "en-us"
+theme = "terminal"
+paginate = 5
+
+[params]
+  # Only posts from these sections will be seen on the front page.
+  mainSections = ["post", "coolstuff"] 
+  themeColor = "red"
+  showMenuItems = 2
+
+[permalinks]
+  post = "/:section/:slug/"
+  about = "/:section"
+  junk = "/:section/:slug/"
+  coolstuff = "/:section/:slug/:year/:monthname/:weekday/:day/:filename"
+
+[languages]
+  [languages.en]
+    title = "#/g/punk-site"
+    subtitle = "unofficial and in test site for the #/g/punk channel"
+    keywords = ""
+    copyright = "put some footer here"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "#/g/punk-site"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "posts"
+        url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "otherjunk"
+        name = "junk"
+        url = "/junk"
+      [[languages.en.menu.main]]
+        identifier = "coolstuff"
+        name = "coolstuff"
+        url = "/coolstuff"
