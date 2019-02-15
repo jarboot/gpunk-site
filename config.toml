@@ -1,4 +1,4 @@
-baseurl = "https://gpunksite.com/"
+baseurl = "http://81.4.102.81" # CHANGE THIS IF HOSTING ELSEWHERE
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
