@@ -7,4 +7,8 @@ draft: false
 
 in order to post here you can't start sentences with capital letters.
 
+see the repo [here](https://github.com/jarboot/gpunk-site) and learn more about contributing
+
 this site is built using [Hugo](https://gohugo.io) which is licensed under the Apache 2.0 License, and the theme is forked from panr's [terminal](https://themes.gohugo.io/hugo-theme-terminal/) theme.
+
+
